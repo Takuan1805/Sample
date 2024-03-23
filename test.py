@@ -20,3 +20,7 @@ print("5th check")
 num = None
 print("6th check")
 print("num's value is " + str(num) + ". num's type is "+ str(type(num)) + ".")
+
+num = True
+print("7th check")
+print("num's value is " + str(num) + ". num's type is "+ str(type(num)) + ".")
