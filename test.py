@@ -24,3 +24,13 @@ print("num's value is " + str(num) + ". num's type is "+ str(type(num)) + ".")
 num = True
 print("7th check")
 print("num's value is " + str(num) + ". num's type is "+ str(type(num)) + ".")
+
+num = ["a", "g", 5, 8]
+print("8th check")
+print("num's value is " + str(num) + ". num's type is "+ str(type(num)) + ".")
+
+print("branch switch check")
+
+num = ("a", "g", 5, 8)
+print("8th check")
+print("num's value is " + str(num) + ". num's type is "+ str(type(num)) + ".")
