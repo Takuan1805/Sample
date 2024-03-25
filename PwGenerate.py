@@ -1,14 +1,14 @@
 import random
 import string
 
-def generate_random_string(length) -> str:
-    #int(length)
+
     characters = string.ascii_letters + string.digits + string.punctuation
     random_string = ''.join(random.choices(characters, k = length))
     return random_string
 
 def main():
     is_looping = True
+
     while is_looping:
         try:
             length = int(input("文字数"))
@@ -38,6 +38,7 @@ def length_check(num):
         return 2
 
 def process_value(value):
+
     print(generate_random_string(value))
 
 if __name__ == "__main__":
